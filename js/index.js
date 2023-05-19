@@ -472,7 +472,7 @@ canvas.addEventListener(
   false
 );
 
-controls.target.set(0, 0.7, 0);
+controls.target.set(0, 0, 0);
 
 // update the camera position to zoom in on the new center
 //   var distance = camera.position.distanceTo(newCenter);
