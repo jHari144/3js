@@ -464,7 +464,7 @@ canvas.addEventListener(
       controls2.target.set(newCenter.x, newCenter.y, newCenter.z);
       // update the camera position to zoom in on the new center
       var distance = camera.position.distanceTo(newCenter);
-      camera.position.set(0, 0, 0 + distance);//newCenter.x, newCenter.y, newCenter.z + distance);
+      camera.position.set(0, 0, newCenter.z + distance);//newCenter.x, newCenter.y, newCenter.z + distance);
       controls.update();
       controls2.update()
     }
